@@ -1,0 +1,556 @@
+html, body, div,
+h1, h2, h3, h4, h5, h6, p, 
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td
+{
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    margin-bottom: 0px;
+}
+body{
+	font-size:14px;
+    font-family: "微软雅黑";
+    color: #4B5D6F;
+}
+ul{
+    list-style:none;
+    margin-bottom: 0;
+}
+a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+h3{
+	margin-bottom: 0px;
+}
+/*页面公用样式类*/
+body{
+	min-width: 1170px;
+	background: #EFF3F5;
+	/*overflow: hidden;*/
+}
+.container-fluid{
+	padding: 0;
+}
+table{
+	/*box-shadow: 5px 5px 5px #D1D1D1;
+	-webkit-box-shadow: 5px 5px 5px #D1D1D1;*/
+}
+/*按钮统一样式*/
+/*div中有单位输入框*/
+.setDanwei{
+	position: absolute;
+	top: 0px;
+	right: 18px;
+}
+.div_input{
+	width: 100%;
+	height:30px;
+	border: none;
+	outline: none;
+}
+.ld_btn{
+	background: #F7B52B;
+	color: #FFFFFF;
+	outline: none;
+	border: none;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	border-radius: 4px;
+	height: 36px;
+	margin-right: 28px;
+	padding: 0 12px;
+}
+.btn_default{
+	background: #FFFFFF;
+	border: 1px solid #F7B52B;
+	color: #F7B52B;
+}
+.ld_btn_margin{
+	margin-bottom: 0px;
+	margin-right: 18px;
+}
+.ld_Wrap{
+	width: 1170px;
+	margin: auto;
+	overflow: hidden;
+}
+.display_block{
+	display: block;
+}
+/*边距*/
+.margin_top20{
+	margin-top: 20px;
+}
+.margin_top0{
+	margin-top: 0px;
+}
+.margin_bottom18{
+	margin-bottom: 18px;
+}
+
+/*头部样式*/
+.ld_header{
+	height: 40px;
+	background: #333333;
+	/*padding: 0px 15%;*/
+	overflow: hidden;
+}
+
+.ld_header ul{
+	margin-bottom: 0px;
+	padding: 0px;
+}
+.ld_header ul li{
+	list-style: none;
+	float: left;
+	line-height: 40px;
+	padding: 0 34px 0 20px;
+	border-left: 1px solid #000000;
+	border-right: 1px solid #000000;
+	box-sizing: border-box;
+}
+.ld_header ul li:first-child{
+	border-right: none;
+}
+.ld_header ul li span{
+	padding-right: 8px;
+}
+/*logo栏*/
+.ld_logo{
+	height: 90px;
+	line-height: 90px;
+	background: #FFFFFF;
+	border-bottom: 1px solid #D1D1D1;
+	overflow: hidden;
+}
+.ld_logo ul li{
+	float: left;
+}
+.ld_logo ul li{
+	width: 84px;
+	text-align: center;
+}
+.ld_logo ul li a{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	color: #4B5D6F;
+}
+.ld_logo ul li.active{
+	border-bottom: 3px solid #F7B52B;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	margin-top: -3px;	
+}
+
+.ld_logo ul li.active a{
+	color:#F7B52B;
+}
+.ld_logo ul li.ld_active{
+	border-bottom: 3px solid #F7B52B;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	margin-top: -3px;
+}
+.ld_logo ul li.ld_active a{
+	color:#F7B52B;
+}
+
+/*banner部分*/
+.ld_banner{
+	background: url(../img/bg.jpg);
+	background-size: 100% auto;
+	position: relative;
+	overflow: hidden;
+}
+
+
+/*尾部*/
+.ld_footer{
+	height: 104px;
+	line-height: 104px;
+	background: #FFFFFF;
+}
+
+/*页面内容公共样式*/
+.tab-content-padding{
+	padding: 0 38px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+.ld_content{
+	/*padding: 0 17%;*/
+	/*background: #EFF3F5;*/
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	overflow: hidden;
+	
+}
+.ld_content .content_title{
+	font-size: 18px;
+	font-weight: bold;
+	border-bottom: 1px solid #D1D1D1;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	line-height: 40px;
+	/*margin-bottom: 18px;*/
+	
+}
+.content_tips{
+	font-size: 12px;
+	font-weight: normal;
+	color: #999999;
+}
+.ld_content_list{
+	background: #FFFFFF;
+	padding: 18px 0 0 18px;
+	/*box-shadow: 5px 5px 5px #D1D1D1;
+	-webkit-box-shadow: 5px 5px 5px #D1D1D1;*/
+	
+	
+}
+.ld_content_list div span{
+	display: block;
+}
+.list_title1{
+	font-size: 18px;
+	line-height: 40px;
+}
+.list_title2{
+	font-size: 16px;
+}
+
+/*显示*/
+.display_inlineBlock{
+	display: inline-block;
+}
+/*左右填充*/
+.padding_l_r{
+	padding: 0px 18px;
+}
+/*背景色*/
+.bg_white{
+	background: #FFFFFF;
+}
+
+.ld_content_monneyTitle{
+	color: #333333;
+	font-size: 14px;
+}
+.ld_content_monney{
+	color: #F70900;
+	font-size: 24px;
+}
+
+/*遮罩层*/
+/*.zhezhao{
+	width: 100%;
+	height: 100%;
+	background: rgba(43,61,79,0.6);
+	position: absolute;
+}*/
+
+/*用电部分样式*/
+#makeActive{
+	color: #FFFFFF;
+}
+.yongdian_pay{
+	width:240px;
+}
+.count_makeActive{
+	font-size: 50px;
+	padding-top: 10%;
+}
+.count_makeActive_tips{
+	font-size: 25px;
+}
+.maidianWrap{
+	padding: 18px 0 57px 0;
+}
+.leixing select{
+	width: 88px;
+	height: 40px;
+	border: 1px solid #D1D1D1;
+	margin-right: 36px;
+}
+
+ #maidian div.dianliang div,#maidian div.danjia div,
+ #keyongdian div.beginTime div,
+ #faxingzichan div.dianliang div, #faxingzichan div.yonghu div
+ {
+	width: 144px;
+	height: 40px;
+	border: 1px solid #D1D1D1;
+	padding: 0 5px;
+	line-height: 40px;
+	margin-right: 36px;
+	vertical-align: middle;
+	position: relative;
+}
+
+/*交易动态*/
+.dongtaiWrap{
+	width: 100%;
+}
+.mairu, .maichu{
+	width: 49%;
+	
+}
+.mairu h3, .maichu h3{
+	position: relative;
+}
+.mairu .select,.maichu .select{
+	width: 100px;
+	height: 28px;
+	line-height: 28px;
+	border: none;
+	background: #D9E1E7;
+	border-radius: 14px;
+	outline: none;
+	font-size: 12px;
+	color: #4B5E6F;
+	position: absolute;
+	top: 50%;
+	margin-top: -14px;
+	right: 4px;
+	padding: 0 8px;
+}
+.mairu table tr td, .maichu table tr td{
+	border-top: 0px;
+	
+}
+.mairu table tbody td:first-child, 
+.maichu table tbody td:first-child{
+	font-size: 11px;
+	color: #FFFFFF;
+}
+.mairu table tr td span,.maichu table tr td span{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	line-height: 16px;
+	border-radius: 8px;
+
+}
+.mairu table,.maichu table{
+	/*box-shadow: 5px 5px 5px #D1D1D1;
+	-webkit-box-shadow: 5px 5px 5px #D1D1D1;*/
+}
+.mairu table thead,.maichu table thead{
+	background: #FFFFFF;
+}
+.mairu table tbody tr:nth-child(2n+1) ,.maichu table tbody tr:nth-child(2n+1){
+	background: #f1f1f1;
+}
+.mairu table tbody tr:nth-child(2n+0) ,.maichu table tbody tr:nth-child(2n+0){
+	background: #FFFFFF;
+}
+.mairu table thead tr:first-child,.maichu table thead tr:first-child{
+	height: 44px;
+	line-height: 44px;
+	font-weight: bold;
+}
+.mairu table td span{
+	background: #F70000;
+}
+.maichu table td span{
+	background: #009943;
+}
+
+/*账户设置*/
+/*页面底部填充*/
+.padBottom{
+	width: 100%;
+	height: 40px;
+}
+#faxingzhanghu{
+	width:50%;
+	display: inline-block;
+	line-height: 40px;
+}
+.form-group input[type=text]{
+	height: 40px;
+}
+label.labelHeight{
+	height: 40px;
+	line-height: 40px;
+}
+.zhonglei_list{
+	width: 70%;
+	margin-left: 12px;
+}
+.zhonglei_list label{
+	margin: 0 20px 0 10px;
+}
+.zhonglei_list input[type=checkbox]{
+	width: 16px;
+	height: 16px;
+	border: 1px solid #D1D1D1;
+	background: #FFFFFF;
+}
+.zhonglei_list input[type=text]{
+	width: 30%;
+	display: inline;
+}
+
+/*个人中心*/
+#personal{
+	padding: 0px;
+	position: relative;
+}
+/*#personal .banner{
+	height: 120px;
+	background: url(../img/personBanner.jpg);
+	background-size: 100% 100%;
+	color: #FFFFFF;
+	line-height: 120px;
+	position: relative;
+}*/
+.welcome{
+	font-size: 32px;
+}
+.banner_tip{
+	position: absolute;
+	color: #FFFFFF;
+	top: 40px;
+	left: 50%;
+	margin-left: -585px;
+}
+
+/*.welcom_zhezhao{
+	height: 120px;
+	width: 100%;
+	background: rgba(43,61,79,0.6);
+	position: absolute;
+}*/
+.per_txt{
+	font-size: 18px;
+}
+#personal .ld_content_monney{
+	display: inline-block;
+}
+#personal .btn_default{
+	background: #FFFFFF;
+	border: 1px solid #F7B52B;
+	color: #F7B52B;
+}
+#dizhi.ld_content,#wodedian.ld_content{
+	border-top: 0px;
+}
+#dizhi .dizhiWidth{
+	width: 50%;
+	padding-right: 100px;
+}
+/*#dizhi input[type=button]{
+	margin-bottom: 0px;
+}*/
+#wodedian .wodedian_current{
+	line-height: 52px;
+	font-size: 18px;
+	
+}
+
+#wodedian .wodedian_current span{
+	font-size: 28px;
+	color: #F7B52B;
+	display: inline;
+}
+
+/*我的电量*/
+#wodedian .leixing select{
+	margin-right: 0px;
+}
+#wodedian .jiange{
+	width: 100%;
+	height: 8px;
+	background: #EFF3F5;
+}
+/*发电个人中心特殊部分*/
+.fadiantongji{
+	margin-right: 18px;
+	border-bottom: 1px solid #D9DCDE;
+}
+.fadiantongji .fadian_title1{
+	font-size: 18px;
+	font-weight: 700;
+	border-right: 1px solid #D1D1D1;
+	padding-right: 28px;
+}
+.fadiantongji .fadian_title2{
+	font-size: 16px;
+	
+}
+.active_heiLigth{
+	color: #F7B52B;
+}
+.fadian_num{
+	font-size: 24px;
+	padding: 0 28px;
+	position: relative;
+	
+}
+.ld_content_list .fadian_num span{
+	display: inline-block;
+	position: absolute;
+	top: 6;
+	left: 0;
+}
+.ld_content_list .fadian_num span.glyphicon{
+	top: 6px;
+	
+}
+.weifa_icon{
+	width: 20px;
+	height: 20px;
+	background: url(../img/fadianIcon.fw.png);
+	top: 6px;
+}
+.yushou_padding{
+	padding: 6px 28px 0 28px;
+}
+.weifa_padding{
+	padding: 6px 0px 0 28px;
+}
+.progress{
+	width: 200px;
+	height: 8px;
+	margin-left: 10px;
+	margin-top: 6px;
+}
+.progress_wrap{
+	padding-top: 30px;
+	
+}
+
+
+/*网关授权*/
+#shouquan input[type=text]{
+	display: inline-block;
+	width: 60%;
+}
+#shouquan form{
+	padding: 10px 0 18px 0;
+}
+

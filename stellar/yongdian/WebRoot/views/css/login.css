@@ -1,0 +1,82 @@
+/*登录*/
+.loginWrap{
+	
+}
+/*.loginWrap .zhezhao{
+	width: 100%;
+	height: 100%;
+	background: rgba(43,61,79,0.5);
+	position: absolute;
+}*/
+#loginModel,#createModel{
+	width: 32%;
+	background: #FFFFFF;
+	position: absolute;
+	left: 50%;
+	top:25%;
+	margin-left: -16%;
+	padding: 0px 50px;
+}
+#createModel{
+	top: 22%;
+}
+#loginModel form,#createModel form{
+	padding: 24px 0 42px 0;
+	border-bottom: 1px solid #D5D7D7;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+#loginModel input,#createModel input{
+	width: 100%;
+	height: 44px;
+	/*margin-top: 18px;*/
+}
+
+.selectFile {
+	width: 100%;
+	height: 44px;
+    position: relative;
+    display: inline-block;
+    background: #FFFFFF;
+    border: 1px solid #D5D7D7;
+    border-radius: 4px;
+    overflow: hidden;
+    text-decoration: none;
+    line-height: 44px;
+    color: #656565;
+}
+.selectFile input {
+    position: absolute;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+}
+.selectFile:hover{
+	color: #656565;
+}
+.title{
+	font-size: 32px;
+	margin-top: 32px;
+	margin-bottom: 0px;
+}
+.tip{
+	margin-bottom: 0px;
+}
+.pwd{
+	margin-top: 8px;
+}
+/*.sumbit{
+	background: #F7B52B;
+	color: #FFFFFF;
+	outline: none;
+	border: none;
+	margin-top: 20px;
+	border-radius: 4px;
+}*/
+.foot a,.log_foot a{
+	line-height: 48px;
+	color: #4B5D6F;
+}
+

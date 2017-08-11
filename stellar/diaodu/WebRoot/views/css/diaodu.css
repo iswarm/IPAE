@@ -1,0 +1,168 @@
+/*用户调度之账户设置*/
+#setCount .setAble{
+	width: 30%;
+	height: 40px;
+	border: 1px solid #D1D1D1;
+	line-height: 40px;
+	padding: 0 12px;
+	margin-top: 8px;
+	position: relative;
+}
+.text_overflow{
+	display: inline-block;
+	width: 120px;
+	height: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	padding: 0;
+	cursor: pointer;
+}
+#setCount .xieyi,#addUser_xieyi .xieyi {
+	width: 80px;
+	height: 80px;
+    position: relative;
+    display: inline-block;
+    /*background: #FFFFFF;*/
+    border: 1px dashed #D1D1D1;
+    border-radius: 4px;
+    overflow: hidden;
+    text-decoration: none;
+    line-height: 80px;
+    color: #D1D1D1;
+    font-size: 60px;
+}
+#setCount .xieyi input,#addUser_xieyi .xieyi input {
+	width: 100%;
+	height: 100%;
+    position: absolute;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+}
+#setCount .xieyi:hover{
+	color: #D1D1D1;
+}
+#addUser_xieyi .xieyi:hover{
+	color: #D1D1D1;
+}
+
+/*交易情况*/
+  #transaction #faxingzichan div select{
+ 	margin-right: 0px;
+ }
+ #transaction #transaction_tabel.ld_content_list{
+ 	padding: 0px;
+ }
+ 
+ /*用户授信*/
+#diaodu_shouxin{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#diaodu_shouxin table{
+	width: 100%;
+	border: 1px solid #D1D1D1;
+}
+#diaodu_shouxin table th{
+	text-align: center;
+}
+#diaodu_shouxin table th,#diaodu_shouxin table td{
+	text-align: center;
+	border-right: 1px solid #D1D1D1;
+}
+#diaodu_shouxin table th:last-child,#diaodu_shouxin table td:last-child{
+	border-right: 0px;
+}
+.table>thead>tr>th{
+	border-bottom: 0px;
+}
+.table>tbody>tr>td{
+	border-top: 0px;
+}
+.heightLight_txt{
+	color: #F7B52B;
+}
+#diaodu_shouxin table a:hover{
+	color: #F7B52B;
+}
+
+
+/*分页*/
+.pagination li a{
+	color: #656565;
+}
+.pagination>.active>a{
+	background: #FFFFFF;
+	color: #F7B52B;
+	/*border: none;*/
+	border-color: #ddd;
+	
+}
+
+/*模态框*/
+.modal-header{
+	height: 36px;
+	background: #4B5D6F;
+	color: #FFFFFF;
+	font-size: 16px;
+	padding-top: 6px;
+	padding-bottom: 0px;
+	
+}
+.close{
+	color: #FFFFFF;
+	font-weight: normal;
+}
+#tixianModalLabel{
+	font-weight: normal;
+}
+.modal-footer{
+	text-align: center;
+}
+.form-inline .form-group{
+	display: block;
+}
+#tixian .form-group label{
+	width: 15%;
+	text-align: right;
+}
+#tixian .form-group .input_type1{
+	width: 40%;
+}
+#tixian .form-group .input_type2{
+	width: 75%;
+}
+#addUser form{
+	width: 60%;
+	margin: auto;
+}
+#addUser .form-group{
+	width: 100%;
+}
+#addUser .form-group input,#addUser .form-group select{
+	height: 40px;
+}
+#addUser .form-group .type1{
+	width: 240px;
+}
+#addUser .form-group .type2{
+	width: 164px;
+}
+#addUser .form-group .type3{
+	width: 212px;
+}
+#addUser_xieyi span{
+	font-weight: 700;
+}
+#personal_msg{
+	color: #4B5D6F;
+}
+#personal_msg .xieyi_img{
+	width: 100%;
+	/*height: 253px;*/
+	background: #D1D1D1;
+	margin-top: 20px;
+	margin-bottom: 5px;
+	padding: 5px 0;
+}
