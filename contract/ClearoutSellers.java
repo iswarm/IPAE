@@ -434,7 +434,14 @@ public final class ClearoutSellers extends Contract {
 
     public Future<TransactionReceipt> submitPower(Uint256 _power, Uint256 _type, Uint256 _seqMeter, Uint256 _seq, Address _owner) {
         Function function = new Function("submitPower", Arrays.<Type>asList(_power, _type, _seqMeter, _seq, _owner), Collections.<TypeReference<?>>emptyList());
+        
         return executeTransactionAsync(function);
+    }
+    
+    public String encodeSubmitPower(Uint256 _power, Uint256 _type, Uint256 _seqMeter, Uint256 _seq, Address _owner) {
+    	    Function function = new Function("submitPower", Arrays.<Type>asList(_power, _type, _seqMeter, _seq, _owner), Collections.<TypeReference<?>>emptyList());
+    	    String StrSubmit = FunctionEncoder.encode(function);
+    	    return StrSubmit;
     }
 
     public Future<Bool> isMeterOpened(Address param0) {
